@@ -8,5 +8,8 @@ public class Address {
         this.address = address;
     }
 
-
+    public Address(String address) {
+        this.address = address;
+        this.refAddress = "Default Provider Address";
+    }
 }
